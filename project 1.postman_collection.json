@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "05d86915-a200-4d47-ac2f-92aae54c15f3",
+		"name": "project 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8083/clientsproducts/6204195a3a1efe5976c4d06e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idclient\":\"1\",\r\n    \"idproduct\":\"1\",\r\n    \"amount\": 300\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/clientsproducts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"clientsproducts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/clientsproducts/6204195a3a1efe5976c4d06e",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idclient\":\"1\",\r\n    \"idproduct\":\"1\",\r\n    \"amount\": 300\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/clientsproducts/6204195a3a1efe5976c4d06e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"clientsproducts",
+						"6204195a3a1efe5976c4d06e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
